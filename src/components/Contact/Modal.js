@@ -29,7 +29,7 @@ export default class Modal extends Component {
             
         )
         .then(()=>{alert('Thank you for contacting! You will recive answer in shortest time notice.')})
-        .catch(error=>alert('The message was not sent try again later.'))     
+        .catch(error=>alert('The message was not sent try again later.'+ error))     
         
    }
 
