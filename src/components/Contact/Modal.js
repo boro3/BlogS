@@ -25,6 +25,7 @@ export default class Modal extends Component {
             'gmail',
             'template_nBOsaEfz_clone',
             '.modal-input-form',
+            process.env.REACT_APP_APP_ID
             
         )
         .then(()=>{alert('Thank you for contacting! You will recive answer in shortest time notice.')})
@@ -37,7 +38,7 @@ export default class Modal extends Component {
         this.setState({
             [event.target.name]:event.target.value
         })
-        let a=process.env.REACT_APP_APP_ID
+        let a=
         console.log(a)
     }
     clearState=()=>{
