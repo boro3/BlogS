@@ -53,7 +53,7 @@ class NewPost extends Component {
             date:'',
             id:0
         },()=>{a=undefined})
-       
+        alert('Your new post was posted!')
         
     }
 
